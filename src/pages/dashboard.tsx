@@ -54,7 +54,7 @@ export default function Dashboard() {
     if (ready && !authenticated) {
       navigate("/login");
     }
-  }, [ready, authenticated, setLocation]);
+  }, [ready, authenticated]);
 
   if (!ready || !authenticated) {
     return (
