@@ -18,7 +18,7 @@ import Save from "@/pages/save";
 function App() {
   return (
     <PrivyProvider
-      appId="cmp2cb7xb00sj0cl8y63c"
+      appId="cmp2cb7xb00sj0cl8y63c4p0e"
       config={{
         loginMethods: ["email"],
         appearance: {
