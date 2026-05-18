@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/create-wallet", "destination": "/api/create-wallet.js" },
+    { "source": "/api/wallet-balance", "destination": "/api/wallet-balance.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
