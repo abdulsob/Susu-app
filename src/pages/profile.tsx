@@ -7,7 +7,7 @@ import {
   CircleDollarSign, User, Loader2, X, Eye, EyeOff, Copy, QrCode,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { createCircleWallet, getCircleWalletBalance } from "@/lib/arc";
+import { createCircleWallet, getCircleWalletBalance } from "@/lib/arc.ts";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
